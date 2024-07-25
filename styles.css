@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(2, 17, 17);
+}
+    
+.post-containe{
+    background-color: white;
+    margin: 5%;
+    width: 32%;
+    height: 28%;
+
+}
+.post-img{
+    width: 456px;
+}
+.header{
+  height: 30%;
+  display: flex;
+}
+.ellipsis-verticalfa{
+    padding-left: 335px;
+    padding-top: 20px;
+   
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.post-conos{
+    display: flex;
+}
+.corazon{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+.mensaje{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 2px; 
+}
+.avion{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 2px; 
+}
+.guardar{
+    padding-left: 335px;
+    padding-right: 4px;
+    padding-top: 5px;
+}
+.post-body-1{
+    padding-left: 15px;
+}
+.post-body-2{
+    padding-left: 15px;
+}
+
+
+ 
