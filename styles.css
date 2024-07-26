@@ -1,20 +1,29 @@
-body{
-    background-color: rgb(2, 17, 17);
+.container{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
 }
     
 .post-containe{
-    background-color: white;
     margin: 5%;
-    width: 32%;
-    height: 28%;
-
+    width: 455px;
+    height: 600px;
 }
 .post-img{
-    width: 456px;
+    width: 100%;     
+    height: 350px;
+}
+.custom-img{
+    width: fit-content;
+    max-width: 100%;
 }
 .header{
-  height: 30%;
+    background-color: white;
+  height: 60px;
   display: flex;
+
 }
 .ellipsis-verticalfa{
     padding-left: 335px;
@@ -31,30 +40,35 @@ body{
     display: flex;
 }
 .corazon{
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 10px;
-    padding-right: 2px;
+    padding-right: 8px;
 }
 .mensaje{
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 2px; 
 }
 .avion{
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 2px; 
 }
 .guardar{
-    padding-left: 335px;
+    padding-left: 270px;
     padding-right: 4px;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 .post-body-1{
     padding-left: 15px;
 }
 .post-body-2{
     padding-left: 15px;
+}
+.post-body{
+    width: 100%;
+    height: 190px;
+    background-color: white;
 }
 
 
